@@ -463,7 +463,9 @@ margin-top: 1px;
     'use strict';
 
     const replacements = {
+        'perfect': '320',
         'great': '300',
+        'good' : '200',
         'ok': '100',
         'meh': '50'
     };
@@ -550,5 +552,3 @@ margin-top: 1px;
         updateObserver();
     };
 })();
-
-
